@@ -4,51 +4,51 @@ Absolutely, Maryam. Below is a **polished, professional README** for your CAPA R
 
 ---
 
-# 🧠 CAPA Reasoning Agent – AI-Powered Deviation Analysis
+# CAPA Reasoning Agent – AI-Powered Deviation Analysis
 
 **A domain-aware, retrieval-augmented agent for analyzing pharmaceutical/biotech deviation reports and recommending structured CAPA (Corrective and Preventive Action) plans.**
 
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project showcases an **AI-powered agent** designed to:
 
-* 📄 **Parse unstructured deviation reports**
-* 🤖 **Summarize key incidents** using an LLM or distilled summarizer
-* 🔍 **Classify root cause** with logic-based or model-backed rules
-* 💡 **Generate CAPA suggestions** (Corrective + Preventive)
-* 🔗 **Incorporate RAG** (Retrieval-Augmented Generation) to ground summaries in enterprise knowledge base
+*  **Parse unstructured deviation reports**
+*  **Summarize key incidents** using an LLM 
+*  **Classify root cause** with logic-based 
+*  **Generate CAPA suggestions** (Corrective + Preventive)
+*  **Incorporate RAG** (Retrieval-Augmented Generation) to ground summaries in enterprise knowledge base
 
 Built with:
 
-* 🧠 HuggingFace Transformers (`facebook/bart-large-cnn`, `MiniLM`)
-* 📚 FAISS + SentenceTransformers for semantic search
-* 🧪 GxP-compliant domain logic
-* 🌐 Streamlit for rapid prototyping
+* HuggingFace Transformers (`facebook/bart-large-cnn`, `MiniLM`)
+* FAISS + SentenceTransformers for semantic search
+* GxP-compliant domain logic
+* Streamlit for rapid prototyping
 
 ---
 
-## ✨ Why This Matters
+## Why This Matters
 
 Deviation and CAPA handling is mission-critical in life sciences. Traditional systems rely on:
 
-* Manual report parsing 📝
-* Reactive CAPA suggestions ❌
-* Lack of traceability across historical data 📉
+* Manual report parsing 
+* Reactive CAPA suggestions 
+* Lack of traceability across historical data 
 
 This agent brings:
 
-* 🔬 **AI-driven root cause reasoning**
-* 🧠 **Summarization grounded in enterprise SOPs**
-* ✅ **GMP/GxP contextual alignment**
+* **AI-driven root cause reasoning**
+* **Summarization grounded in enterprise SOPs**
+* **GMP/GxP contextual alignment**
 
 It mimics how a **human quality analyst** thinks—with the speed and consistency of a machine.
 
 ---
 
-## 🛠 Features
+##  Features
 
 | Module               | Function                                               |
 | -------------------- | ------------------------------------------------------ |
@@ -59,7 +59,7 @@ It mimics how a **human quality analyst** thinks—with the speed and consistenc
 
 ---
 
-## 🧪 Example Workflow
+## Example Workflow
 
 1. **Upload deviation report** (`.txt`)
 2. Model **summarizes** using BART or RAG
@@ -68,7 +68,7 @@ It mimics how a **human quality analyst** thinks—with the speed and consistenc
 
 ---
 
-## 🧠 RAG + Summarization Architecture
+## RAG + Summarization Architecture
 
 ```mermaid
 graph LR
@@ -87,7 +87,7 @@ F --> G[CAPA Plan Generator]
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 CAPAAgenticAssistant/
@@ -104,7 +104,7 @@ CAPAAgenticAssistant/
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -114,14 +114,14 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
-* ✅ LLM Prompting + Pipeline Integration
-* ✅ Summarization (with or without OpenAI)
-* ✅ Embedding Search (FAISS, MiniLM)
-* ✅ Agentic Reasoning (rule-based + model-aided)
-* ✅ GxP/QMS Domain Familiarity
-* ✅ Streamlit App Delivery (UI + UX)
+* LLM Prompting + Pipeline Integration
+* Summarization (BART)
+* Embedding Search (FAISS, MiniLM)
+* Agentic Reasoning (rule-based + model-aided)
+* GxP/QMS Domain Familiarity
+* Streamlit App Delivery (UI + UX)
 
 ---
 
@@ -137,5 +137,5 @@ pip install -r requirements.txt
 ## 🧑‍💻 Maintainer
 
 **Maryam Jameela**
-AI Consultant |  ML
+AI Scientist & Engineer |  Applied ML and Computer Vision 
 
