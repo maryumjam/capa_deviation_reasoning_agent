@@ -8,7 +8,6 @@ Absolutely, Maryam. Below is a **polished, professional README** for your CAPA R
 
 **A domain-aware, retrieval-augmented agent for analyzing pharmaceutical/biotech deviation reports and recommending structured CAPA (Corrective and Preventive Action) plans.**
 
-![Streamlit UI Screenshot](./assets/screenshot.png) <!-- Optional image -->
 
 ---
 
